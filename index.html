@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>A Journey Through Our Memories</h1>
+
+        <div class="gallery">
+            <div class="photo">
+                <img src="images/1.jpg" alt="Her Photo 1">
+                <button onclick="showMessage(1)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/2.jpg" alt="Her Photo 2">
+                <button onclick="showMessage(2)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/3.jpg" alt="Her Photo 3">
+                <button onclick="showMessage(3)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/4.jpg" alt="Her Photo 4">
+                <button onclick="showMessage(4)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/5.jpg" alt="Her Photo 5">
+                <button onclick="showMessage(5)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/6.jpg" alt="Her Photo 6">
+                <button onclick="showMessage(6)">Click for a Surprise</button>
+            </div>
+            <div class="photo">
+                <img src="images/7.jpg" alt="Her Photo 7">
+                <button onclick="showMessage(7)">Click for a Surprise</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-up message container -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p id="popupMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
